@@ -10,6 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 
 public class RegisterServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	//get request handled by this do get method
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
